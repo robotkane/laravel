@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/statistics', 'StatisticsController@index');
+Route::get('/publish', 'PublishController@index');
